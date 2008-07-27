@@ -1,4 +1,4 @@
-class CreateEventsTable < ActiveRecord::Migration
+class <%= class_name %> < ActiveRecord::Migration
   def self.up
     create_table :events do |t|
       t.column  :source_url, :string
