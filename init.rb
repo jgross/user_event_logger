@@ -1,10 +1,1 @@
-require "view_helpers" 
-require "user_event_logger"
-ActionView::Base.send :include, UserEventLogger::UserEventLoggerViewHelper
-ActionController::Base.send :include, UserEventLogger::UserEventLoggerMixin
-
-path = File.join(File.dirname(__FILE__), 'lib', 'models')
-$LOAD_PATH << path
-Dependencies.load_paths << path
-Dependencies.load_once_paths.delete(path)
-
+require File.dirname(__FILE__) + "/rails/init"

@@ -46,6 +46,16 @@ def send_to
     redirect_to destination_url
 end 
 
+Gem installation
+================
+If you are running rails 2.1 or above you can choose between a standard plugin install and a gem install. To
+install as a gem, add this to your environment.rb file:
+    
+    config.gem 'ffmike-user_event_logger', :source => 'http://gems.github.com'
+    
+and then run:
+
+    rake gems:install
 
 
 Copyright (c) 2008 Michael A. Gunderloy, released under the MIT license
