@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = "user_event_logger"
-  s.version  = "0.4.0"
+  s.version  = "0.4.1"
   s.date     = "2008-08-16"
   s.summary  = "Simple user-triggered event tracking for Rails"
   s.email    = "MikeG1@larkfarm.com"
