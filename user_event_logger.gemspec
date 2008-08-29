@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name     = "user_event_logger"
-  s.version  = "0.4.1"
-  s.date     = "2008-08-16"
+  s.version  = "0.4.2"
+  s.date     = "2008-08-28"
   s.summary  = "Simple user-triggered event tracking for Rails"
   s.email    = "MikeG1@larkfarm.com"
   s.homepage = "http://github.com/ffmike/user_event_logger"
@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
     "lib/models/event.rb",
     "lib/user_event_logger.rb",
     "lib/view_helpers.rb",
+    "rails/init.rb"
     "tasks/user_event_logger_tasks.rake",
     "test/database.yml",
     "test/schema.rb",
